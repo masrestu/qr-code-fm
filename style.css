@@ -16,7 +16,7 @@ body {
 	height: 100%;
 }
 
-.container {
+main {
 	display: flex;
 	align-items: center;
 	justify-content: space-between;
@@ -63,7 +63,7 @@ p {
 }
 
 @media screen and (max-width: 640px) {
-	.container {
+	main {
 		max-width: 375px;
 	}	
 }
