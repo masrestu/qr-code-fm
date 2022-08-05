@@ -22,7 +22,7 @@ main {
 	justify-content: space-between;
 	max-width: 1440px;
 	background-color: var(--light-gray-color);
-	padding-top: 10rem;
+	padding-top: 8rem;
 	padding-bottom: 10rem;
 	margin: auto;
 	flex-direction: column;
@@ -46,16 +46,15 @@ img {
 	border-radius: 10px;
 }
 
-p {
+h1, p {
 	text-align: center;
 }
 
-.title {
+h1 {
 	font-size: 22px; 
-	font-weight: 700;
 }
 
-.description {
+p {
 	font-size: 15px;
 	color: var(--grayish-blue-color);
 	margin-left: 4px;
